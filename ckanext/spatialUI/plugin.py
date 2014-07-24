@@ -4,9 +4,6 @@ class SpatialUIPluginClass(plugins.SingletonPlugin):
     """
     Setup plugin
     """
-    print '#############################'
-    print '#    ckanext-spatialUI      #'
-    print '#############################'
 
     plugins.implements(plugins.IConfigurer, inherit=True)
 
